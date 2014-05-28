@@ -34,6 +34,8 @@ var downsize        = require('downsize'),
         ]
     };
 
+moment.lang('fr');
+
 /**
  * [ description]
  * @todo ghost core helpers + a way for themes to register them

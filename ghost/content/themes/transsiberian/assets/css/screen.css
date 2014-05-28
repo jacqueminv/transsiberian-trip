@@ -124,6 +124,7 @@ h4, h5, h6 {
     /*
     font-family: 'PT Mono', sans-serif;
     */
+    font-family: monospace;
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -438,12 +439,30 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .home-template .content {
-    text-align: center;
+    max-width: 20em;
+    margin: 0 auto;
 }
 
 .home-template .content ul {
     list-style: none;
     padding: 0;
+    line-height: 1;
+}
+
+.home-template .content ul li {
+    margin: 0 0 0.7em;
+    text-align: center;
+}
+
+.home-template .content ul time {
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+.columned {
+    -webkit-columns: 2 15em;
+    -moz-columns: 2 15em;
+    columns: 2 15em;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */

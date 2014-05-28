@@ -20,7 +20,7 @@
     <ul>
     {{#foreach posts}}
 		<li>
-			<time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM"}}</time>
+			<time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM" locale="fr"}}</time>
 			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
 		</li>
     {{/foreach}}
