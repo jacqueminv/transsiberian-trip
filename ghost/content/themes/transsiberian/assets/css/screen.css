@@ -395,7 +395,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .blog-title {
-    background-image: url("/content/images/logo-v1.svg");
+    background-image: url("/content/images/logo-v1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
